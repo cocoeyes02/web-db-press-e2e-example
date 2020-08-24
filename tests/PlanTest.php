@@ -56,7 +56,7 @@ class PlanTest extends TestCase
         try {
             // TOPページにアクセスしてからログイン画面へ遷移
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $signInButtonElement = 'a[href="./login.html"]';
             $page->waitForSelector($signInButtonElement);
@@ -74,7 +74,7 @@ class PlanTest extends TestCase
 
             // TOPページから宿泊プラン一覧画面へ遷移する
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $planButtonElement = 'a[href="./plans.html"]';
             $page->waitForSelector($planButtonElement);
@@ -181,7 +181,7 @@ class PlanTest extends TestCase
         try {
             // TOPページにアクセスしてからログイン画面へ遷移
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $signInButtonElement = 'a[href="./login.html"]';
             $page->waitForSelector($signInButtonElement);
@@ -199,7 +199,7 @@ class PlanTest extends TestCase
 
             // TOPページから宿泊プラン一覧画面へ遷移する
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $planButtonElement = 'a[href="./plans.html"]';
             $page->waitForSelector($planButtonElement);
@@ -326,7 +326,7 @@ class PlanTest extends TestCase
         try {
             // TOPページにアクセスしてからログイン画面へ遷移
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $signInButtonElement = 'a[href="./login.html"]';
             $page->waitForSelector($signInButtonElement);
@@ -344,7 +344,7 @@ class PlanTest extends TestCase
 
             // TOPページから宿泊プラン一覧画面へ遷移する
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $planButtonElement = 'a[href="./plans.html"]';
             $page->waitForSelector($planButtonElement);
@@ -520,7 +520,7 @@ class PlanTest extends TestCase
         try {
             // TOPページにアクセスしてからログイン画面へ遷移
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $signInButtonElement = 'a[href="./login.html"]';
             $page->waitForSelector($signInButtonElement);
@@ -538,7 +538,7 @@ class PlanTest extends TestCase
 
             // TOPページから宿泊プラン一覧画面へ遷移する
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $planButtonElement = 'a[href="./plans.html"]';
             $page->waitForSelector($planButtonElement);

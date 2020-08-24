@@ -56,7 +56,7 @@ class MemberTest extends TestCase
         try {
             // TOPページから新規登録画面に遷移する
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $page->waitFor(1000);
             $signUpButtonElement = 'a[href="./signup.html"]';
@@ -165,7 +165,7 @@ class MemberTest extends TestCase
         try {
             // TOPページから新規登録画面に遷移する
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $page->waitFor(1000);
             $signUpButtonElement = 'a[href="./signup.html"]';
@@ -197,7 +197,7 @@ class MemberTest extends TestCase
 
             // TOPページからログインボタンをクリック
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $signInButtonElement =
                 'a[href="./login.html"]';
@@ -309,7 +309,7 @@ class MemberTest extends TestCase
         try {
             // TOPページから新規登録画面に遷移する
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $page->waitFor(1000);
             $signUpButtonElement = 'a[href="./signup.html"]';
@@ -341,7 +341,7 @@ class MemberTest extends TestCase
 
             // TOPページからログインボタンをクリック
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $signInButtonElement =
                 'a[href="./login.html"]';
@@ -367,7 +367,7 @@ class MemberTest extends TestCase
 
             // TOPページからマイページへ遷移する
             $page->goto(
-                'https://hotel.testplanisphere.dev/'
+                'https://hotel.testplanisphere.dev/ja/'
             );
             $mypageButtonElement = 'a[href="./mypage.html"]';
             $page->waitForSelector(
